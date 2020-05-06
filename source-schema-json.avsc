@@ -1,0 +1,61 @@
+{        
+  "type": "record",
+  "name": "Profiles",   
+  "fields": [
+    {
+      "name": "Name",
+      "type": [ "null", "string" ],
+      "default": null
+    },
+    {
+      "name": "phone",
+      "type": [ "null", "string" ],
+      "default": null
+    },
+    {
+      "name": "job",
+      "type": [ "null", "string" ],
+      "default": null
+    },
+    {
+      "name": "company",
+      "type": [ "null", "string" ],
+      "default": null
+    },
+    {
+      "name": "ssn",
+      "type": [ "null", "string" ],
+      "default": null
+    },
+    {
+      "name": "street_address",
+      "type": [ "null", "string" ],
+      "default": null
+    },
+    {
+      "name": "dob",
+      "type": [ "null", "string" ],
+      "logicalType": "date"
+    },
+    {
+      "name": "email",
+      "type": [ "null", "string" ],
+      "default": null
+    },
+    {
+      "name": "ts",
+      "type": [ "null", "string" ],
+      "logicalType": "date"
+    },
+    {
+      "name": "credit_card",
+      "type": [ "null", "string" ],
+      "default": null
+    },
+    {
+      "name": "id",
+      "type": [ "null", "string" ],
+      "default": "abc987xyz"
+    }
+  ]
+}
